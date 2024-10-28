@@ -1,8 +1,3 @@
-import { Controller } from '@nestjs/common';
-
-@Controller('assignments')
-export class AssignmentsController {}
-
 import { Controller, Get, Param } from '@nestjs/common';
 
 @Controller('assignments')
